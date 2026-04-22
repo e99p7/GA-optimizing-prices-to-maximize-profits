@@ -1,9 +1,0 @@
-services:
-  ga-pricing-api:
-    build: .
-    container_name: ga-pricing-api
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./data:/app/data
-    restart: unless-stopped
